@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <style>
+        #secret{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="click()" value="Say Hello">
+        <select id="select" onchange="ispisi(this)">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+        </select>
+        <input type="text" id="input">
+        <input type="button" onclick="insert()" value="Click me">
+        <h1 id="secret">Pera</h1>
+    
+    </form>
+</body>
+</html>

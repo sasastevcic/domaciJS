@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>JavaScript funkcije</title>
+	<script src="script.js"></script>
+	<style>
+		h2#secret {
+    		visibility: hidden;
+		}
+	</style>
+</head>
+<body>
+		<form>
+			<select onchange="ispisi(this)">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+			<input type="text" name="placeholder" id="placeholder">
+			<input type="button" value="Klikni me!" onclick="insert()">
+			<h2 id="secret" > Pera</h2>
+        </form>
+</body>
+</html>
